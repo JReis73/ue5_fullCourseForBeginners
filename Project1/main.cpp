@@ -34,5 +34,9 @@ int main()
 
 	std::cout << S1->GetMarks();
 
+	if (S1->GetMarks() > 35) {
+		std::cout <<std::endl<< "Passed!";
+	}
+
 	return 0;
 }
